@@ -1,0 +1,184 @@
+body {
+	margin:0;
+	padding:0;
+}
+#header h1,
+#header h2,
+#header p {
+	margin-left:2%;
+	padding-right:2%;
+}
+#container5 {
+	clear:left;
+	/* float:left; */
+	width:100%;
+	overflow:hidden;
+	background:#eee; /* column 5 background colour */
+}
+#container4 {
+	clear:left;
+	/* float:left; */
+	width:100%;
+	position:relative;
+	right:14%;
+	background:#b2f0f9; /* column 4 background colour */
+}
+#container3 {
+	clear:left;
+	/* float:left; */
+	width:100%;
+	position:relative;
+	right:14%;
+	background:#89ffa2; /* column 3 background colour */
+}
+#container2 {
+	clear:left;
+	/* float:left; */
+	width:100%;
+	position:relative;
+	right:14%;
+	background:#ffa7a7; /* column 2 background colour */
+}
+#container1 {
+	/* float:left; */
+	width:100%;
+	position:relative;
+	right:14%;
+	background:#fff689; /* column 1 background colour */
+}
+#container0 {
+	/* clear:left; */
+	float:left;
+	width:100%;
+	position:relative;
+	right:14%;
+	background:#ffa7a7; /* column 2 background colour */
+}
+#container-1 {
+	/* float:left; */
+	width:100%;
+	position:relative;
+	right:14%;
+	background:#fff689; /* column 1 background colour */
+}
+#col1 {
+	/* clear: none; */
+	/* float:left; */
+	width:12%;
+	height:800px;
+	position:relative;
+	left:88%;
+
+	
+}
+#col2 {
+	clear: none;
+	/* float:left; */
+	width:14%;
+	height:800px;
+	position:relative;
+	left:86%;
+
+}
+#col3 {
+	clear: none;
+	/* float:left; */
+	width:12%;
+	height:800px;
+	position:relative;
+	left:94%;
+
+}
+#col4 {
+	clear: none;
+	/* float:left; */
+	width:12%;
+	height:800px;
+	position:relative;
+	left:94%;
+
+}
+#col5 {
+	clear: none;
+	/* float:left; */
+	width:12%;
+	height:800px;
+	position:relative;
+	left:96%;
+
+}
+#col6 {
+	clear: none;
+	/* float:left; */
+	width:12%;
+	height:800px;
+	position:relative;
+	left:96%;
+
+}
+#col7 {
+	clear: none;
+	/* float:left; */
+	height:800px;
+	width:12%;
+	position:relative;
+	left:98%;
+
+}
+.cell1 {
+	float:none;
+	width:58%;
+	height:15%;
+	position:relative;
+	border: 2px solid black;
+background:#336699;
+}
+.cell2 {
+	float:left;
+	width:58%;
+		height:15%;
+	position:relative;
+		border: 2px solid black;
+background:#ff6699;
+}
+.cell3 {
+	float:left;
+	width:58%;
+		height:15%;
+	position:relative;
+		border: 2px solid black;
+background:#00ff66;
+}
+.cell4 {
+	float:left;
+	width:58%;
+	height:15%;
+	position:relative;
+		border: 2px solid black;
+background:#336699;
+}
+.cell5 {
+	float:left;
+	width:58%;
+		height:15%;
+	position:relative;
+		border: 2px solid black;
+background:#ff6699;
+}
+.cell6 {
+	float:left;
+	width:58%;
+		height:15%;
+	position:relative;
+		border: 2px solid black;
+background:#666633;
+}
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+}
+#footer p {
+	margin-left:2%;
+	padding-right:2%;
+}

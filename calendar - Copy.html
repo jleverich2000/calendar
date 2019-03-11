@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="utf-8">
+</head>
+<body>
+<script> 
+function myFunk() {
+var content = "<!DOCTYPE html><html lang='en'><head><title>myname</title><meta charset='utf-8'><script";
+content += " src='myCalendar.js'></";
+content += "script> </head><body><form><input type='button' value='Close' onClick='window.close();'></form></body></html>";
+myWindow = open("","Calendar","width=500,height=500,resizable=1,status=1"); 
+myWindow.document.write(content);
+myWindow.document.close();
+}
+
+function myFunction() {
+   document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+<h1>Click open to see calendar</h1>
+<button type="button" onclick="myFunk()">Open</button>
+
+</body>
+</html>
